@@ -1,0 +1,26 @@
+{
+    "name": "mustang-framework/documentation-generator-container",
+    "description": "A Mustang container which can creates a documentation from API annotations in your source code.",
+    "type": "mustang-container",
+    "license": "MIT",
+    "extra": {
+        "mustang": {
+            "container": {
+                "name": "Documentation"
+            }
+        },
+        "laravel": {
+            "providers": [
+                "App\\Containers\\Vendor\\Documentation\\Providers\\DocumentGeneratorServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "mustang-framework/core": "^v7.0.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "mustang-framework/container-installer": true
+        }
+    }
+}
