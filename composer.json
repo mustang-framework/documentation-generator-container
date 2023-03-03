@@ -16,7 +16,7 @@
         }
     },
     "require-dev": {
-        "mustang-framework/core": "^v7.0.0"
+        "mustang-framework/core": "^v10.0.0"
     },
     "config": {
         "allow-plugins": {
